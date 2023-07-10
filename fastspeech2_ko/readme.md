@@ -2,7 +2,7 @@
 KSS
 
 # Vocoder
-- vocder
+- Vocgan
 - Hifigan
 
 # Fine-turn
