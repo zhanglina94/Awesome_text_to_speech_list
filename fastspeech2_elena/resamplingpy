@@ -1,0 +1,38 @@
+import os
+import librosa
+import tqdm
+import soundfile as sf
+
+if __name__ == '__main__':
+
+    audioExt = 'WAV'
+
+    input_sample = 22050
+
+    output_sample = 22050
+
+    #audioDirectory = ['/data/orgin/train', '/data/orgin/test']
+    audioDirectory = ['/workspace/tts/Korean-FastSpeech2-Pytorch/data/kss_elena/wavs_before']
+
+
+    #outputDirectory = ['/data/traindataset', '/data/testdataset']
+    outputDirectory = ['/workspace/tts/Korean-FastSpeech2-Pytorch/data/kss_elena/wavs']
+
+    for i, dire in enumerate(audioDirectory):
+
+        clean_speech_paths = librosa.util.find_files(
+                directory=dire,
+                ext=audioExt,
+                recurse=True,
+            )
+
+        for file in tqdm.tqdm(clean_speech_paths, desc='No.{} dataset resampling'.format(i)):
+
+            fileName = os.path.basename(file)
+            y, sr = librosa.load(file, sr=input_sample)
+   
+            y_16k = librosa.resample(y, orig_sr=sr, target_sr=output_sample)
+           
+            outputFileName = os.path.join(outputDirectory[i], fileName)
+        
+            sf.write(outputFileName, y_16k, output_sample)
