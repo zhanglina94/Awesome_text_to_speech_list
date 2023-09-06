@@ -9,7 +9,9 @@
 | 2021	| CAT-P-VITS |
 | 2021	| Sine-P-VITS |
 | 2023	| PERIOD VITS: VARIATIONAL INFERENCE WITH EXPLICIT PITCH MODELING FOR END-TO-END EMOTIONAL SPEECH SYNTHESIS|
+| 2023	| iSTFT-VITS VITS:LIGHTWEIGHT AND HIGH-FIDELITY END-TO-END TEXT-TO-SPEECH WITH MULTI-BAND GENERATION AND INVERSE SHORT-TIME FOURIER TRANSFORM|
 ---------------------------------------------------------------------------
+
 
  
 ##### ✨ 2021_VITS
@@ -26,4 +28,9 @@ Sum
 
 Sum
 - based on VITS
-- 4 language()
+- 4 language
+
+##### ✨ 2023_MB-iSTFT-VITS
+
+[[Paper]](https://arxiv.org/pdf/2210.15975.pdf)  
+[[Code]](https://github.com/misakiudon/MB-iSTFT-VITS-multilingual/tree/main)
