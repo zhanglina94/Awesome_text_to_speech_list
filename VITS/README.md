@@ -33,7 +33,7 @@ Sum
 
 Sum
 - based on VITS
-- 4 language
+- 4 language：korean_to_ipa
 
 ##### ✨ 2023_MB-iSTFT-VITS
 
@@ -44,5 +44,6 @@ Sum
 - https://github.com/MasayaKawamura/MB-iSTFT-VITS
 - https://github.com/CjangCjengh/vits
 - https://github.com/Francis-Komizu/VITS
+- 
 
 
