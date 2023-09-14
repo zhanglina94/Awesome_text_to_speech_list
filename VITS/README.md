@@ -23,11 +23,11 @@ Sum
 - based on Conditional Variational Autoencoder
 - Adversarial Learning
 
-##### ✨ 2022_YourTTS
+#####  2022_YourTTS
 [[Paper]](https://arxiv.org/pdf/2112.02418.pdf)
 [[Code]](https://github.com/Edresson/YourTTS)
 
-##### ✨ 2023_PERIOD VITS
+##### 2023_PERIOD VITS
 [[Paper]](https://arxiv.org/pdf/2210.15964.pdf)
 [[Code]](https://github.com/ORI-Muchim/PolyLangVITS)
 
@@ -39,5 +39,10 @@ Sum
 
 [[Paper]](https://arxiv.org/pdf/2210.15975.pdf)
 [[Code]](https://github.com/misakiudon/MB-iSTFT-VITS-multilingual)
+
+## References
+- https://github.com/MasayaKawamura/MB-iSTFT-VITS
+- https://github.com/CjangCjengh/vits
+- https://github.com/Francis-Komizu/VITS
 
 
