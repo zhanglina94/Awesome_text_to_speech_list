@@ -1,6 +1,4 @@
 # Awesome_text_to_speech_list [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-Awesome text-to-speech is a curated list of \ that utilize various modes of interaction, such as text, speech, images, and videos, to provide a seamless and versatile user experience. It is designed to assist users in performing various tasks, from simple information retrieval to complex multimedia reasoning.
-
 
 
 ## 💻Papers with code [Open Source]
