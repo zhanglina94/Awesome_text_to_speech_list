@@ -1,4 +1,12 @@
-# TTS_Survey
+# Awesome_text_to_speech_list [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+Awesome text-to-speech is a curated list of \ that utilize various modes of interaction, such as text, speech, images, and videos, to provide a seamless and versatile user experience. It is designed to assist users in performing various tasks, from simple information retrieval to complex multimedia reasoning.
+
+
+
+## 💻Papers with code [Open Source]
+
+
+
 
 ### Text-to-speech papers
 
@@ -20,13 +28,67 @@
 
 
 
-### Text-to-speech projects
+
+# Text-to-speech papers
+
+## Text-to-speech 2 Stage Models
+
+### Spectrogram models
+
+--------------------------------------------------------------------------- 
+| Date 	| Announcements 	| Paper | Code |
+|-	|-	| -|  -|  
+| 2017.03	| Tacotron	| [[Paper]](https://arxiv.org/abs/1703.10135) | [[Code]]()|
+| 2017.12	| Tacotron2| [[Paper]](ttps://arxiv.org/abs/1712.05884) | [[Code]]()|
+| 2018.11	| Glow-TTS | [[paper]]()|[[Code]]() |
+| 2019	| FastSpeech |[[paper]](https://arxiv.org/pdf/1905.09263.pdf))|[[Code]]() |
+| 2022	| FastSpeech2| [[Paper]](https://arxiv.org/abs/2006.04558) | [[Code]]()|
+---------------------------------------------------------------------------
+
+### Vocoder Models
+
+--------------------------------------------------------------------------- 
+| Date 	| Announcements 	| Paper | Code |
+|-	|-	| -|  -|  
+| 2016.10	| WaveNet	| [[Paper]]() | [[Code]]()|
+| 2011.11	| Parallel WaveNet	| [[Paper]](https://arxiv.org/abs/1910.11480) | [[Code]]()|
+| 2018	| WaveRNN| [[Paper]](https://github.com/fatchord/WaveRNN/) | [[Code]]()|
+| 2018.11	| WaveGlow | [[paper]](https://arxiv.org/abs/1910.06711)|[[Code]]() |
+| 2019	| MelGAN |[[paper]](https://arxiv.org/abs/1910.06711)|[[Code]]() |
+| 2020	| VocGAN | [[Paper]]() | [[Code]]()|
+| 2020	| HiFi-GAN| [[Paper]]() | [[Code]]()|
+| 2021	| WaveGrad| [[Paper]](https://arxiv.org/abs/2009.00713) | [[Code]]()|
+---------------------------------------------------------------------------
 
 
+## Text-to-speech End-to-end Models
 
+### VAE-Based  Frameworks
 
+--------------------------------------------------------------------------- 
+| Date 	| Announcements 	| Paper | Code |
+|-	|-	| -|  -|  
+| 2021	| VITS:Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech	| [[Paper]](https://arxiv.org/pdf/2106.06103.pdf) | [[Code]](https://github.com/jaywalnut310/vits)
+| 2021	| FPN-VITS | | |
+| 2021	| CAT-P-VITS | | |
+| 2021	| Sine-P-VITS | | |
+| 2022	| 🐸YourTTS: Towards Zero-Shot Multi-Speaker TTS and Zero-Shot VoiceConversion for everyone|[[Paper]](https://arxiv.org/abs/2112.02418) | [[Code]]()|
+| 2022	| 🐶Bark| × |[[Code]](https://github.com/suno-ai/bark) |
+| 2023	| PERIOD VITS: VARIATIONAL INFERENCE WITH EXPLICIT PITCH MODELING FOR END-TO-END EMOTIONAL SPEECH SYNTHESIS|[[Paper]]()  |[[Code]]() |
+| 2023	| MB-iSTFT-VITS:LIGHTWEIGHT AND HIGH-FIDELITY END-TO-END TEXT-TO-SPEECH WITH MULTI-BAND GENERATION AND INVERSE SHORT-TIME FOURIER TRANSFORM|  | [[Code]]()|
+| 2023	| VITS2| [[Paper]](https://arxiv.org/abs/2307.16430) |[[Code]](https://arxiv.org/abs/2307.16430) |
+---------------------------------------------------------------------------
 
-### TTS Link
+### Diffusion-Based Frameworks
+
+--------------------------------------------------------------------------- 
+| Date 	| Announcements 	| Paper | Code |
+|-	|-	| -|  -|  
+| 2022	| NaturalSpeech: End-to-End Text to Speech Synthesis with Human-Level Quality	| [[Paper]](https://arxiv.org/abs/2205.04421) | [[Code]]()|
+| 2023	| NaturalSpeech 2: Latent Diffusion Models are Natural and Zero-Shot Speech and Singing Synthesizers|[[Paper]](https://arxiv.org/pdf/2304.09116.pdf) | [[Code]]()|
+---------------------------------------------------------------------------
+
+### TTS Demo
 - https://freetts.com/
 - https://ondoku3.com/zh-hans/ 
 - https://ttsmp3.com/ 
@@ -35,21 +97,13 @@
 - https://w.atwiki.jp/softalk/pages/15.html 
 - https://gui.jp.net/textalk/ 
 
-##### ko
+##### Korean-TTS-Demo
 - https://studioperso.ai
 - http://www.webtalks.kr
 - https://aispeechdemo.com
 - https://ttsdemo.com
--  ☆ https://typecast.ai/kr
-- Naver -> https://clova.ai/voice/
+- https://typecast.ai/kr
+- https://clova.ai/voice/
 - https://onairstudio.ai/
 - https://www.prosody-tts.com/
 
-## TTS Model
-
-- Fastspeech&Fastspeech2
-- Tacotron&Tacotron2
-- Transformer-TTS
-- Bark(E2E)
-- VITS(E2E)
-- NaturalSpeech2
