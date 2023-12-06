@@ -61,8 +61,6 @@
 
 ## Text-to-speech End-to-end Models
 
-### VAE-Based  Frameworks
-
 --------------------------------------------------------------------------- 
 | Date 	| Announcements 	| Paper | Code |
 |-	|-	| -|  -|  
@@ -72,19 +70,13 @@
 | 2021	| Sine-P-VITS | | |
 | 2022	| 🐸YourTTS: Towards Zero-Shot Multi-Speaker TTS and Zero-Shot VoiceConversion for everyone|[[Paper]](https://arxiv.org/abs/2112.02418) | [[Code]]()|
 | 2022	| 🐶Bark| × |[[Code]](https://github.com/suno-ai/bark) |
+| 2022	| NaturalSpeech: End-to-End Text to Speech Synthesis with Human-Level Quality	| [[Paper]](https://arxiv.org/abs/2205.04421) | [[Code]](https://github.com/heatz123/naturalspeech)|
+| 2023.04| NaturalSpeech 2: Latent Diffusion Models are Natural and Zero-Shot Speech and Singing Synthesizers|[[Paper]](https://arxiv.org/pdf/2304.09116.pdf) | [[Code]]()|
 | 2023	| PERIOD VITS: VARIATIONAL INFERENCE WITH EXPLICIT PITCH MODELING FOR END-TO-END EMOTIONAL SPEECH SYNTHESIS|[[Paper]]()  |[[Code]]() |
 | 2023	| MB-iSTFT-VITS:LIGHTWEIGHT AND HIGH-FIDELITY END-TO-END TEXT-TO-SPEECH WITH MULTI-BAND GENERATION AND INVERSE SHORT-TIME FOURIER TRANSFORM|  | [[Code]]()|
 | 2023	| VITS2| [[Paper]](https://arxiv.org/abs/2307.16430) |[[Code]](https://arxiv.org/abs/2307.16430) |
 ---------------------------------------------------------------------------
 
-### Diffusion-Based Frameworks
-
---------------------------------------------------------------------------- 
-| Date 	| Announcements 	| Paper | Code |
-|-	|-	| -|  -|  
-| 2022	| NaturalSpeech: End-to-End Text to Speech Synthesis with Human-Level Quality	| [[Paper]](https://arxiv.org/abs/2205.04421) | [[Code]]()|
-| 2023	| NaturalSpeech 2: Latent Diffusion Models are Natural and Zero-Shot Speech and Singing Synthesizers|[[Paper]](https://arxiv.org/pdf/2304.09116.pdf) | [[Code]]()|
----------------------------------------------------------------------------
 
 ### TTS Demo
 - https://freetts.com/
